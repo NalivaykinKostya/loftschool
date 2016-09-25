@@ -10,6 +10,7 @@ global.$ = {
     app: require('./gulp/paths/app.js')
   },
   gulp: require('gulp'),
+  spritesmith: require('gulp.spritesmith'),
   rimraf: require('rimraf'),
   browserSync: require('browser-sync').create(),
   gp: require('gulp-load-plugins')()
@@ -22,6 +23,8 @@ $.path.task.forEach(function(taskPath) {
 $.gulp.task('default', $.gulp.series(
   'clean',
   $.gulp.parallel(
+    'fonts',
+    'sprite',      
     'sass',
     'pug',
     'js:foundation',
