@@ -2,7 +2,7 @@
 
 module.exports = function () {
   $.gulp.task('sprite', function () {
-    var spriteData = $.gulp.src('./source/icons/*.png').pipe($.gp.spritesmith({
+    var spriteData = $.gulp.src('./source/sprite/*.png').pipe($.gp.spritesmith({
       imgName: 'sprite.png', // итоговый спрайт
       cssName: 'sprite.scss', // файл стилей
       algorithm: 'left-right',

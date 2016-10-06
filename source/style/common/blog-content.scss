@@ -1,0 +1,104 @@
+$mainColor: #faf8f0;
+
+.traingle-blog {
+  fill: $mainColor;
+}
+
+/*html,
+body {
+  height: 100%;
+}
+
+footer {
+  height: 150px; // фиксированая высота футера 
+}
+
+.page {
+  min-height: 100%;
+  margin-bottom: -150px; // Равно высоте футера
+}
+
+.page:after {
+  content: '';
+  display: block;
+  height: 150px; // Равно высоте футера
+}*/
+h2{
+	font: 400 35px "Sansus-Webissimo-Regular", Sans-serif;
+	color: #455a64;
+	
+	&::first-line{
+	line-height: .4;
+	}
+}
+p{
+	font: 400 16px "Roboto", Sans-serif;
+	color: #455a64;
+}
+.main-blog{
+	width: 100%;
+	min-height: 900px;
+	background-color: $mainColor;
+	margin-top: -130px; 
+}
+data{
+	color: #083c96;
+}
+.blog-main-left, .blog-main-right{
+	display: block;
+	height: 100%;
+	float: left;
+	background-color: $mainColor;
+	position: relative;	
+}
+.blog-main-right{
+	width: 78%;
+	padding-left: 70px;
+	margin: 0;
+		
+}
+.blog-main-right article.first{
+		margin-top: 0;
+	}
+.blog-main-right article{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 900px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#chapter1{
+	margin-top: 0;
+}
+.line-blog{
+	width: 860px;
+	height: 5px;
+	margin-left: 20px;
+	background-color: #ecebe4;
+}
+.blog-main-left{
+	text-align: right;
+	width: 22%;
+}
+.blog-main-left ul{
+	margin: 0;
+}
+.list-item-blog{
+	margin-right: 20px;
+	list-style: none;
+	border-right: 3px solid transparent;
+	padding: 10px 20px;		
+		&:active {
+		border-right: 3px solid #083c96;
+		}
+		&:active a{
+		font: 700 16px "Roboto", Sans-serif;
+		color: #083c96;
+		}
+		a{
+		text-decoration: none;
+		font: 400 16px "Roboto", Sans-serif;
+		color: #455a64;
+		
+		}
+}

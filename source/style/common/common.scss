@@ -326,10 +326,13 @@ footer{
   width: 100%;
 }
 .footer-block{
-	width: 33.33%;
+	width: 33.2%;
 	height: 150px;
 	float: left;
 	padding: 30px;
+}
+.footer-block>p, addres>p{
+  margin-top: 0;
 }
 .footer-block p{
 	font: 300 16px "Roboto", Sans-serif;
@@ -349,4 +352,11 @@ footer{
 .footer-block .soc{
 	margin: 20px;
 	opacity: .7;
+}
+.line-footer{
+  background-color: #64656c;
+  width: 1px;
+  height: 87px;
+  float: left;
+  margin-top: 29px;
 }

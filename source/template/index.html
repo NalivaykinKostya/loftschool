@@ -3,7 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="../style/common.css">
+	<!-- <link rel="stylesheet" href="../style/common.css"> -->
+	<link rel="stylesheet" href="../../build/assets/css/app.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="../fonts/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="page">
@@ -17,14 +20,89 @@
   				<span class="menu"><img src="../images/hamburger.png" alt=""></span>
   			</nav>
 			<div class="header">
+				<!-- ********avatar block********** -->			
 				<div class="avatar">
+					<div class="avatar-photo"><img src="../images/photo-avatar.png" alt="" href=""></div>
 					<h2>Владимир Астахов</h2>
+					<p>Личный сайт веб разработчика</p>
+				<!-- ****************************** -->
 				</div>
 			</div>
+			<div class="box">
+				<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 380" preserveaspectratio="none" class="traingle">
+				    <polygon points="0,0   0,386   500.8,386   500.8,75.5"></polygon>
+				    <polygon points="1000,0   1000,386   500,386   500,75.5"></polygon>
+				</svg>
+
+			</div>
+			<div class="box-wrapper">
+				<h1>Мои работы</h1>
+			</div>
   		</header>
-  		<main></main>
-	</div>
-	
-	<footer>footer</footer>
+  		<main class="clearfix">
+  			<div class="main-left ">
+  				<div class="loftschool">
+  					<h3>Cайт школы онлайн образования</h3>
+  					<div class="line-segment"></div>
+  					<h4>html, css, javascript</h4>
+  					<button><a href="http://loftblog.ru/"><i class="fa fa-link" aria-hidden="true"></i>Посмотреть сайт</a></button>
+  				</div>
+  			</div>
+  			<div class="main-right ">
+  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis pariatur sequi nesciunt molestiae esse, unde similique a quasi doloribus mollitia nobis tempore odit facere ipsam, ut voluptatibus voluptates voluptate quos architecto, inventore. Optio velit consequatur ad eligendi delectus, ea cumque tempore, dolores, distinctio voluptatum pariatur sequi totam nesciunt laborum suscipit sapiente quia? Veniam suscipit ipsam dicta quidem. Deserunt quae odio earum beatae aperiam non esse laborum eaque perspiciatis architecto autem, odit harum molestias temporibus quas, iusto nulla! Excepturi dolorem, distinctio rem praesentium commodi sunt quisquam provident, incidunt hic voluptas accusamus fugiat. Illum ratione autem qui laboriosam tempora, nihil? Soluta incidunt hic, nobis ipsum non enim, expedita quasi eveniet, nostrum aliquam quos sit totam accusamus adipisci cum doloremque dolorem minima fuga. Quae repellendus voluptatum nobis, fugiat expedita neque veritatis, commodi, consequuntur perspiciatis iure blanditiis beatae distinctio quod incidunt. Laborum recusandae nemo autem nobis possimus eaque ad totam in? Non maxime cum, sunt quod exercitationem ipsum delectus nihil, temporibus nisi! Voluptates quasi iure impedit et laborum perspiciatis facere, eum amet harum consectetur alias nemo excepturi, earum minima unde quidem repellat sequi quia voluptas, voluptatibus iusto optio similique a ipsa. Explicabo quisquam ut quas assumenda nam sapiente fuga, rerum aut, hic veniam maxime.</p>
+  			</div>
+  		</main>
+  		<div class="SayAboutMe">
+  			<img class="mayak" src="../images/mayak.png" alt="">
+  			<div class="content">
+	  			<div class="content-star">
+	  				<h1>что обо мне говорят</h1>
+	  			</div>
+  				<div class="form-wrapper">
+  					<form action="">
+  						<h3>связаться со мной</h3>
+  						<div class="line-segment"></div>
+  						<input type="text" placeholder="Ваше имя"><br>
+  						<input type="email" placeholder="Ваше имейл"><br>
+  						<textarea name="" id="" cols="38" rows="6" placeholder="Ваше обращение"></textarea>
+  						<button class="main" type="submit">Отправить</button
+  						><button class="main" type="reset">Очистить</button>
+  					</form>
+  				</div>
+  			</div>
+
+  		</div>
+	</div>	
+	<footer>
+		<div class="footer clearfix">
+			<div class="footer-block">
+				<p>Этот сайт я сделал в рамках обучения в Школе</p>
+				<p>онлайн образования LoftSchool.</p>
+			</div>
+			<div class="line-footer"></div>
+			<div class="footer-block">
+				<ul class="nav">
+					<li class="list-nav"><a href="">Мои работы</a></li>
+					<li class="list-nav"><a href="">Обо мне</a></li>
+					<li class="list-nav"><a href="">Блог</a></li>
+					<li class="list-nav"><a href="">Авторизация</a></li>
+				</ul>
+				<ul class="nav">
+					<li class="social soc" id=""><img src="../images/vk.png" alt=""></li>
+  					<li class="social soc" id=""><img src="../images/github.png" alt=""></li>
+  					<li class="social soc" id=""><img src="../images/in.png" alt=""></li>
+				</ul>
+			</div>
+			<div class="line-footer"></div>
+			<div class="footer-block">
+				<addres>
+					<p>skype_NalivaykinKonstantin</p>
+					<p>kacteh@list.ru</p>
+					<p>+7 968 534 20 90</p>
+					<p>МО,Г.О.Балашиха,ул.Речная,д.12</p>
+				</addres>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
