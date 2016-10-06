@@ -27,10 +27,11 @@ $.gulp.task('default', $.gulp.series(
     'fonts',
     'sprite',      
     'sass',
-    'pug',
+    //'pug',
     'js:foundation',
     'js:process',
     'copy:image',
+    'copy:html',
     'css:foundation',
     'sprite:svg'
   ),

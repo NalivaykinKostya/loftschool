@@ -88,10 +88,10 @@ data{
 	list-style: none;
 	border-right: 3px solid transparent;
 	padding: 10px 20px;		
-		&:active {
+		&:hover {
 		border-right: 3px solid #083c96;
 		}
-		&:active a{
+		&:hover a{
 		font: 700 16px "Roboto", Sans-serif;
 		color: #083c96;
 		}
